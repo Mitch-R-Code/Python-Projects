@@ -8,3 +8,8 @@ inches = mm_to_inches(mm_input)
 
 # Output the result
 print(f"{mm_input} millimeters is equal to {inches:.4f} inches.")
+int_inches = int(inches)
+print(f"The integer part of the inches is {int_inches}")
+decimal_inches = inches - int_inches
+print(f"The decimal part of the inches is {decimal_inches}")
+
